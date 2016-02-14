@@ -1,0 +1,60 @@
+#head{
+    height: 122px;
+
+}
+hr{
+   border: 0; border-top: 1px solid orange; border-bottom: 1px solid orange; height:0;
+}
+.articulo{
+border: 2px solid orange;
+border-radius: 4px;
+}
+#head .brand-logo{
+    line-height: 122px;
+}
+.row{
+    margin-bottom:0px;
+}
+footer.page-footer {
+    margin-top: 0px;
+    }
+    .container{
+    	width: 90%;
+    }
+    main,#header,.pie{
+  padding-left: 240px;
+}
+ @media only screen and (max-width : 992px) {
+      main,#header,.pie{
+        padding-left: 0px;
+      }
+    }
+a.button-collapse.head {
+    position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    left: 7.5%;
+    top: 0;
+    float: none;
+    margin-left: 1.5rem;
+    color: #fff;
+    font-size: 32px;
+    z-index: 2;
+}
+.button-collapse{
+    line-height: 122px;
+    left: 5%;
+    color:black;
+}
+.menu{
+  width: 240px;
+  height: 750px;
+}
+#comentario{
+    padding: 5px;
+    background-color: #ff9e80;
+}
+article{
+    margin: 10px;
+}
